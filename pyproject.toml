@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mysite"
+version = "0.1.0"
+description = "Polls app from Django tutorial"
+authors = ["MOIS3Y <stepan@zhukovsky.me>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4.2.3"
+django-environ = "^0.10.0"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
